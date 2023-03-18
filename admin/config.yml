@@ -46,4 +46,4 @@ collections:
                 hint: "Change the slides accent colour."
               - {label: "Donor Group", name: "group", widget: "string", hint: "Enter the donor group name pertaining to this level. Please us this format: Patrons / Parrains"}
               - {label: "Donor Range", name: "range", widget: "string", hint: "Enter the dollar range for the specific donor group. Please use this format: $10,000 - $25,000"}
-              - {label: "Donor Names", name: "names", widget: "text", hint: "Enter the names of the donors, each name on its own line with a space in between."}
+              - {label: "Donor Names", name: "names", widget: "markdown", hint: "Enter the names of the donors, each name on its own line with a space in between."}
