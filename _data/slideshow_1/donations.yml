@@ -1,13 +1,4 @@
 slides:
-  - colour: magenta
-    group: Visionaries / Visionnaires
-    range: $1,000,000 +
-    names: |-
-      Estate of Beryl Montgomery
-
-      Estate of Charles Zinck
-
-      Commissionaires Ottawa  / Commissionnaires Ottawa
   - colour: purple
     group: Patrons / Parrains
     range: $10,000 - $24,999
@@ -365,7 +356,7 @@ slides:
       Three Rivers Regiment Veterans Association
 
       University of Ottawa Health Services Family Health Team
-  - colour: purple
+  - colour: magenta
     group: Partners / Partenaires
     range: $25,000 - $49,999
     names: |-
@@ -543,102 +534,6 @@ slides:
 
       Westeinde Construction Limited
   - colour: green
-    group: Founders / Fondateurs
-    range: $100,000 - $499,999
-    names: |-
-      Mrs. Agnes Benidickson
-
-      Estate of Denis R. Boyle
-
-      Mr. Marcus Boyle
-
-      Estate of Margaret A. Broad
-
-      Estate of Robert Chisholm
-
-      Estate of Mr. Raymond Edward Desjardins
-
-      Mme Adrienne Doré
-
-      Estate of Diana E. Hennessy
-
-      Estate of Kathleen Kinney
-
-      Estate of Evelyne Laishley
-
-      Estate of Jessie Edith Liberty
-
-      Mr. Thomas Lumby
-
-      Mr. Hugh Thomas Macfarlane
-
-      Lt.-Col. Ralph L. MacIntosh, (Ret'd)
-
-      Lt.-Gen. Donald C. Mackenzie and Mrs. Margaret Mackenzie
-
-      Mrs. Joy Maclaren
-
-      Estate of Peter McQuaig
-
-      Estate of Edith Audrey O'Donovan
-
-      The Ozerdinc Grimes Family
-
-      Mr. Michael U. Potter
-
-      Anonymous
-
-      Estate of Edgar N. Rhodes, Jr.
-
-      Estate of M. Edna Rintoul
-
-      John and Jennifer Ruddy
-
-      Estate of Mabel Taylor
-
-      Estate of Arthur Harold Tinker
-
-      Estate of Clarence A. Weskett
-
-      Estate of Ruth Ann Young
-
-      Canadian Forces Morale and Welfare Services / Support Our Troops
-
-      Doherty & Associates
-
-      H.O.P.E. Helping Other People Everywhere
-
-      Le Tour des Quickie
-
-      Ottawa Community Foundation
-
-      Royal Canadian Legion Br 462 Eastview - Poppy Trust Fund
-
-      Royal Canadian Legion Br 593 Bells Corners
-
-      Royal Canadian Legion Br 638 Kanata
-
-      Scotiabank
-
-      The Audette Foundation
-
-      The May Court Club of Ottawa
-
-      The Molson Foundation
-
-      Virginia Parker Foundation
-  - group: Builders / Batisseurs
-    colour: magenta
-    range: $500,000 - $999,999
-    names: |-
-      Estate of Marion Irene Godwin
-
-      Estate of Ruth Isabelle Hamilton
-
-      Estate of Thomas Gordon Lyle
-
-      Deborah's Gift Boutique
-  - colour: purple
     group: Benefactors / Bienfaiteurs
     range: $50,000 - $99,999
     names: |-
@@ -745,3 +640,108 @@ slides:
       The Vered Foundation
 
       The War Amputations of Canada
+  - colour: purple
+    group: Founders / Fondateurs
+    range: $100,000 - $499,999
+    names: |-
+      Mrs. Agnes Benidickson
+
+      Estate of Denis R. Boyle
+
+      Mr. Marcus Boyle
+
+      Estate of Margaret A. Broad
+
+      Estate of Robert Chisholm
+
+      Estate of Mr. Raymond Edward Desjardins
+
+      Mme Adrienne Doré
+
+      Estate of Diana E. Hennessy
+
+      Estate of Kathleen Kinney
+
+      Estate of Evelyne Laishley
+
+      Estate of Jessie Edith Liberty
+
+      Mr. Thomas Lumby
+
+      Mr. Hugh Thomas Macfarlane
+
+      Lt.-Col. Ralph L. MacIntosh, (Ret'd)
+
+      Lt.-Gen. Donald C. Mackenzie and Mrs. Margaret Mackenzie
+
+      Mrs. Joy Maclaren
+
+      Estate of Peter McQuaig
+
+      Estate of Edith Audrey O'Donovan
+
+      The Ozerdinc Grimes Family
+
+      Mr. Michael U. Potter
+
+      Anonymous
+
+      Estate of Edgar N. Rhodes, Jr.
+
+      Estate of M. Edna Rintoul
+
+      John and Jennifer Ruddy
+
+      Estate of Mabel Taylor
+
+      Estate of Arthur Harold Tinker
+
+      Estate of Clarence A. Weskett
+
+      Estate of Ruth Ann Young
+
+      Canadian Forces Morale and Welfare Services / Support Our Troops
+
+      Doherty & Associates
+
+      H.O.P.E. Helping Other People Everywhere
+
+      Le Tour des Quickie
+
+      Ottawa Community Foundation
+
+      Royal Canadian Legion Br 462 Eastview - Poppy Trust Fund
+
+      Royal Canadian Legion Br 593 Bells Corners
+
+      Royal Canadian Legion Br 638 Kanata
+
+      Scotiabank
+
+      The Audette Foundation
+
+      The May Court Club of Ottawa
+
+      The Molson Foundation
+
+      Virginia Parker Foundation
+  - group: Builders / Batisseurs
+    colour: magenta
+    range: $500,000 - $999,999
+    names: |-
+      Estate of Marion Irene Godwin
+
+      Estate of Ruth Isabelle Hamilton
+
+      Estate of Thomas Gordon Lyle
+
+      Deborah's Gift Boutique
+  - colour: green
+    group: Visionaries / Visionnaires
+    range: $1,000,000 +
+    names: |-
+      Estate of Beryl Montgomery
+
+      Estate of Charles Zinck
+
+      Commissionaires Ottawa  / Commissionnaires Ottawa
