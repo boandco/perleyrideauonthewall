@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+#Config
+site_url: https://perleyrideaudonorwall.com/
+display_url: https://perleyrideaudonorwall.com/
+logo_url: https://boandco.studio/images/logo.svg
+
+#Content
+collections:
+  - label: "Slideshow 1"
+    name: "slideshow_1"
+    editor:
+      preview: false
+    files:
+      - label: "Welcome"
+        name: "welcome"
+        file: "_data/slideshow_1/welcome.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string", hint: "The large headline"}
+          - {label: "Description", name: "description", widget: "markdown", hint: "Main content of the page"}
+          - {label: "Call to action", name: "cta", widget: "string", hint: "Banner at the bottom of the page", required: false}
+        

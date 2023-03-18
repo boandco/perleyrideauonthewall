@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  {% include layout-head.html %}
+  <title>{{ site.title }} | Admin</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/25964935b5.css" crossorigin="anonymous">
+</head>
+<body>
+  
+  {% if jekyll.environment == 'production' %}
+    {% include admin/chat-widget.html %}
+  {% endif %}
+  
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  
+  {{ content }}
+
+  <link rel="stylesheet" href="https://boandco.studio/cms/cms.css">
+  <script src="https://boandco.studio/cms/cms.js"></script>
+</body>
+</html>
