@@ -1,0 +1,10 @@
+title: Perley Health Foundation
+description: >- # this means to ignore newlines until "baseurl:"
+  Together we improve the well-being of the people we serve.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://perleyrideauonthewall.com" # the base hostname & protocol for your site, e.g. http://example.com
+netlify_id: replace_this
+
+sass:
+  sass_dir: _sass
+  style: compressed

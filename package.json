@@ -1,0 +1,20 @@
+{
+  "name": "perleyrideauonthewall",
+  "version": "1.0.0",
+  "description": "Customizable slideshow for the Perley Health Foundation TV Screens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "jekyll serve -o --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boandco/perleyrideauonthewall.git"
+  },
+  "author": "Bo & Co Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boandco/perleyrideauonthewall/issues"
+  },
+  "homepage": "https://github.com/boandco/perleyrideauonthewall#readme"
+}
