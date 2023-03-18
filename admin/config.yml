@@ -31,9 +31,9 @@ collections:
           - label: "Your Giving Matters"
             name: "slides"
             widget: "list"
-            collapsed: false
+            collapsed: true
             add_to_top: true
-            summary: "{{ fields.group }} - {{ fields.range }}"
+            summary: "{{fields.group}} - {{fields.range}}"
             label_singular: "Slide"
             fields:
               - label: "Slide Colour"
