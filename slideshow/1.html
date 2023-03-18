@@ -1,0 +1,38 @@
+---
+layout: "slideshow"
+permalink: "/slideshow1/"
+---
+
+<!-- Welcome slide -->
+<div class="slide welcome">
+  <div class="heading">
+    <h1>{{ site.data.slideshow_1.welcome.title }}</h1>
+  </div>
+  <div class="bottom">
+    <div class="description">
+      {{ site.data.slideshow_1.welcome.description | markdownify }}
+    </div>
+    {% if site.data.slideshow_1.welcome.cta %}
+      <div class="call-to-action">
+        {{ site.data.slideshow_1.welcome.cta }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Your Giving Matters -->
+{% for slide in site.data.slideshow_1.donations.slides %}
+  <div class="slide donations {{ slide.colour }}">
+    <div class="information">
+      <h2>Your Giving Matters</h2>
+      <div class="donation-information">
+        <p class="group">{{ slide.group }}</p>
+        <p class="range">{{ slide.range }}</p>
+        <p class="range-hint">Cumulative giving / Dons cumulatifs</p>
+      </div>
+    </div>
+    <div class="donors">
+      {{ slide.names | markdownify }}
+    </div>
+  </div>
+{% endfor %}
