@@ -1,0 +1,85 @@
+.donations {
+  &.purple {
+    --slide-color: #{$color-purple-100};
+    --slide-color-light: #{rgba($color-purple-100, 0.15)};
+    --slide-color-dark: #{darken($color-purple-100, 10)};
+  }
+  &.magenta {
+    --slide-color: #{$color-magenta-100};
+    --slide-color-light: #{rgba($color-magenta-100, 0.15)};
+    --slide-color-dark: #{darken($color-magenta-100, 10)};
+  }
+  &.green {
+    --slide-color: #{$color-green-100};
+    --slide-color-light: #{rgba($color-green-100, 0.15)};
+    --slide-color-dark: #{darken($color-green-100, 10)};
+  }
+  background: $color-shade-00;
+  display: flex;
+  justify-content: space-between;
+
+  .information {
+    width: 50vw;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--slide-color-light);
+
+    h2 {
+      padding: $padding-value;
+      padding-bottom: 0;
+      width: 100%;
+      color: var(--slide-color-dark);
+    }
+
+    .donation-information {
+      padding: 2em 3em 2em 2em;
+      border-radius: 0 5em 0 0;
+      background: var(--slide-color);
+      color: $color-shade-00;
+      p {
+        margin: 0;
+        &.group {
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+        &.range {
+          font-size: 1.8em;
+          font-weight: 700;
+          color: $color-yellow-100;
+          margin: 0.2em 0;
+        }
+      }
+    }
+  }
+  .donors {
+    padding: 0 $padding-value;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    &.center {
+      align-self: center;
+    }
+    &:not(.center) {
+      transform: translateY(100vh);
+    }
+    p {
+      width: 100%;
+    }
+  }
+  &.active {
+    .donors {
+      animation: var(--donor-animation-duration) donors linear;
+      @keyframes donors {
+        from {
+          transform: translateY(100vh);
+        }
+        to {
+          transform: translateY(-100%);
+        }
+      }
+    }
+  }
+}

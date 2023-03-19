@@ -1,0 +1,42 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 1;
+  background: $color-purple-100;
+  color: $color-shade-00;
+  h2, p {
+    margin: 0;
+  }
+  .graphic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    svg {
+      height: 100vh;
+      width: auto;
+      display: block;
+    }
+  }
+  .heading {
+    color: $color-yellow-100;
+    h2 {
+      margin-bottom: 1em;
+    }
+  }
+  .description {
+    max-width: 80%;
+  }
+  .cta {
+    width: 100%;
+    padding: 1em $padding-value;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: $color-shade-00;
+    color: $color-purple-100;
+    font-weight: 700;
+  }
+}
