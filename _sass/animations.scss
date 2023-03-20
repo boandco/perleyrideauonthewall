@@ -1,0 +1,33 @@
+$transition-timing: 1.5s cubic-bezier(0.83, 0, 0.17, 1);
+$transition-delay: 1.2s;
+.slide {
+  .animate {
+    &.fade {
+      transition: opacity $transition-timing;
+      transition-delay: $transition-delay;
+      opacity: 0;
+    }
+    &.slide-up {
+      height: fit-content;
+      overflow: hidden;
+      span {
+        display: block;
+        transition: transform $transition-timing;
+        transition-delay: $transition-delay;
+        transform: translateY(100%);
+      }
+    }
+  }
+  &.active {
+    .animate {
+      &.fade {
+        opacity: 1;
+      }
+      &.slide-up {
+        span {
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}

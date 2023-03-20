@@ -7,6 +7,12 @@ body {
   padding: 0;
   font-family: 'Public Sans', sans-serif;
   background: $color-shade-100;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  &:fullscreen {
+    cursor: none;
+  }
 }
 
 //Shared elements

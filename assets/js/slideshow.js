@@ -1,9 +1,10 @@
 //Config
-var slide_duration = 20000;
+var slide_duration = 20000 //20000 default
+const scrollSpeed = 50 //50 default
 //Init slideshow
 var slides = []
 var currentSlide = 0
-var nextSlide = 1;
+var nextSlide = 1
 document.querySelectorAll('.slide').forEach((x) => {
   slides.push(x.getAttribute('id'))
 })
@@ -38,7 +39,7 @@ function changeSlide() {
     let current = document.querySelector(`.slide#${ slides[currentSlide] }`)
     current.classList.remove('active')
     current.classList.remove('is-exiting')
-    currentSlide = nextSlide;
+    currentSlide = nextSlide
     if ((nextSlide + 1) > (slides.length - 1)) {
       nextSlide = 0
     } else {
@@ -49,14 +50,13 @@ function changeSlide() {
 }
 
 if (document.querySelector('.donations')) {
-  const scrollSpeed = 50
   document.querySelectorAll('.donations').forEach((x) => {
     const donorList = x.querySelector('.donors')
     if (donorList.clientHeight > window.innerHeight) {
-      const slideDuration_s = donorList.clientHeight / scrollSpeed;
-      const slideDuration_ms = slideDuration_s * 1000;
+      const slideDuration_s = donorList.clientHeight / scrollSpeed
+      const slideDuration_ms = slideDuration_s * 1000
       console.log(`Animation duration: ${slideDuration_s}s`)
-      donorList.style.setProperty('--donor-animation-duration', `${slideDuration_s}s`);
+      donorList.style.setProperty('--donor-animation-duration', `${slideDuration_s}s`)
       x.setAttribute('data-duration', slideDuration_ms)
     } else {
       donorList.classList.add('center')

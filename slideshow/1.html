@@ -7,11 +7,11 @@ permalink: "/slideshow1/"
 <div id="welcome" class="slide welcome">
   <div class="graphic">{% include graphics/bullet.html %}</div>
   <div class="heading padding-n padding-we">
-    <h2>{{ site.data.slideshow1.welcome.title }}</h2>
+    <h2 class="animate slide-up"><span>{{ site.data.slideshow1.welcome.title }}</span></h2>
     <div class="divider light"></div>
   </div>
   <div class="bottom">
-    <div class="description padding-we padding-s">
+    <div class="description padding-we padding-s animate fade">
       {{ site.data.slideshow1.welcome.description | markdownify }}
     </div>
     {% if site.data.slideshow1.welcome.cta %}
@@ -29,9 +29,9 @@ permalink: "/slideshow1/"
       <h2>Your Giving Matters</h2>
       <div class="divider dark margin-w"></div>
       <div class="donation-information">
-        <p class="group">{{ slide.group }}</p>
-        <p class="range">{{ slide.range }}</p>
-        <p class="range-hint">Cumulative giving / Dons cumulatifs</p>
+        <p class="group animate fade">{{ slide.group }}</p>
+        <p class="range animate slide-up"><span>{{ slide.range }}</span></p>
+        <p class="range-hint animate fade">Cumulative giving / Dons cumulatifs</p>
       </div>
     </div>
     <div class="donors">
