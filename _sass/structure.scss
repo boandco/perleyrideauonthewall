@@ -10,6 +10,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  font-size: 1.2em;
   &:fullscreen {
     cursor: none;
   }
@@ -18,7 +19,7 @@ body {
 //Shared elements
 h2 {
   margin: 0;
-  font-size: 2.6em;
+  font-size: 2.8em;
 }
 .divider {
   height: 1px;

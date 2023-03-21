@@ -47,3 +47,36 @@ collections:
               - {label: "Donor Group", name: "group", widget: "string", hint: "Enter the donor group name pertaining to this level. Please us this format: Patrons / Parrains"}
               - {label: "Donor Range", name: "range", widget: "string", hint: "Enter the dollar range for the specific donor group. Please use this format: $10,000 - $25,000"}
               - {label: "Donor Names", name: "names", widget: "markdown", hint: "Enter the names of the donors, each name on its own line with a space in between."}
+  - label: "Slideshow 2"
+    name: "slideshow2"
+    editor:
+      preview: false
+    files:
+      - label: "Welcome"
+        name: "welcome"
+        file: "_data/slideshow2/welcome.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string", hint: "The large headline"}
+          - {label: "Description", name: "description", widget: "markdown", hint: "Main content of the page"}
+          - {label: "Call to action", name: "cta", widget: "string", hint: "Optional banner at the bottom of the page", required: false}
+      - label: "Upcoming Events"
+        name: "events"
+        file: "_data/slideshow2/events.yml"
+        fields:
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            collapsed: true
+            add_to_top: true
+            summary: "{{fields.title}} - {{fields.date}}"
+            label_singular: "Event"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                allow_multiple: false
+                choose_url: false
+              - {label: "Title", name: "title", widget: "string", hint: "The name of the event"}
+              - {label: "Description", name: "description", widget: "markdown", hint: "A brief description of the event"}
+              - {label: "Location", name: "location", widget: "string", hint: "The location of the event. (ex: Ottawa City Hall, or Online)"}
+              - {label: "Dates", name: "date", widget: "datetime", hint: "Enter the date(s) of the event"}
