@@ -2,7 +2,7 @@ title: Perley Health Foundation
 description: >- # this means to ignore newlines until "baseurl:"
   Together we improve the well-being of the people we serve.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://perleyrideaudonorwall.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://incredible-monstera-2c155a.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 netlify_id: b693ce62-c20c-4427-bdec-315545db3c3e
 
 sass:

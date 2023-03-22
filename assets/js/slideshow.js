@@ -6,6 +6,8 @@ const progress = document.querySelector('.progress-indicator')
 var slides = []
 var currentSlide = 0
 var nextSlide = 1
+var reload = false
+
 document.querySelectorAll('.slide').forEach((x) => {
   slides.push(x.getAttribute('id'))
 })
@@ -20,7 +22,6 @@ function initSlide() {
   //Set indicator time
   progress.style.setProperty(`--slide-duration`, `${slideDuration(0)}ms`)
   progress.classList.add('running')
-  
 
   console.log('Queueing next slide transition in', duration)
   setTimeout(changeSlide, duration)
@@ -36,6 +37,10 @@ function slideDuration(index) {
 function changeSlide() {
   document.querySelector(`.slide#${ slides[currentSlide] }`).classList.add('is-exiting')
   document.querySelector(`.slide#${ slides[nextSlide] }`).classList.add('active')
+
+  if (reload) {
+    window.location.reload()
+  }
   
   //Set indicator time
   progress.classList.remove('running')
@@ -56,6 +61,15 @@ function changeSlide() {
     currentSlide = nextSlide
     if ((nextSlide + 1) > (slides.length - 1)) {
       nextSlide = 0
+      //Check Build ID
+      var xhttp = new XMLHttpRequest()
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          console.log('Site build ID', xhttp.responseText)
+        }
+      }
+      xhttp.open("GET", versionURL, true)
+      xhttp.send()
     } else {
       nextSlide ++
     }
