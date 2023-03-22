@@ -9,7 +9,8 @@
       {{ content }}
     </div>
     <script>
-      console.log(`Build {{ site.env.BUILD_ID }}`)
+      var buildEnv = '{{ site.env.BUILD_ID }}' || 'tempbuildid'
+      console.log(`Build ${ buildEnv }`)
     </script>
     <script type="text/javascript" src="/assets/js/slideshow.js"></script>
   </body>
