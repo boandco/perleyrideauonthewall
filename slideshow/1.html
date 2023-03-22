@@ -15,8 +15,10 @@ permalink: "/slideshow1/"
       {{ site.data.slideshow1.welcome.description | markdownify }}
     </div>
     {% if site.data.slideshow1.welcome.cta %}
-      <div class="cta">
-        {{ site.data.slideshow1.welcome.cta }}
+      <div class="cta animate slide-up">
+        <span>
+          {{ site.data.slideshow1.welcome.cta }}
+        </span>
       </div>
     {% endif %}
   </div>

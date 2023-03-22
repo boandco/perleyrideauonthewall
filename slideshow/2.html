@@ -15,8 +15,10 @@ permalink: "/slideshow2/"
       {{ site.data.slideshow2.welcome.description | markdownify }}
     </div>
     {% if site.data.slideshow2.welcome.cta %}
-      <div class="cta">
-        {{ site.data.slideshow2.welcome.cta }}
+      <div class="cta animate slide-up">
+        <span>
+          {{ site.data.slideshow2.welcome.cta }}
+        </span>
       </div>
     {% endif %}
   </div>
@@ -68,7 +70,7 @@ permalink: "/slideshow2/"
             <p class="date animate slide-up"><span>{{ event.date }}</span></p>
             <p class="details animate fade">{% if event.time %}{{ event.time}} &#8212; {% endif %}{{ event.location }}</p>
           </div>
-          <div class="qr-code">
+          <div class="qr-code animate fade">
             <div class="code-image">
               <img src="https://api.qrserver.com/v1/create-qr-code/?data={{ event.url }}&size=250x250">
             </div>
@@ -110,11 +112,13 @@ permalink: "/slideshow2/"
           <img src="/{{ news.image }}">
         </div>
       </div>
-      <div class="cta animate slide-up">
-        <span>
-          {{ news.cta }}
-        </span>
-      </div>
+      {% if news.cta %}
+        <div class="cta animate slide-up">
+          <span>
+            {{ news.cta }}
+          </span>
+        </div>
+      {% endif %}
     </div>
 {% endfor %}
 
