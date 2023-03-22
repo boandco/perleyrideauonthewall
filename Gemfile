@@ -10,9 +10,9 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.12"
-# end
+group :jekyll_plugins do
+  gem "jekyll-environment-variables"
+end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
