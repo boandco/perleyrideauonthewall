@@ -1,0 +1,32 @@
+<!-- {% include checkDate.html date='Mar 12-14' %} -->
+{% assign eventDate = include.date %}
+{% if eventDate contains '&' %}
+  <!-- Separate the string after '&' and create end date from that -->
+  <!-- Script returns the 'show' boolean variable based on the passed dates -->
+  {% assign splitMonth = eventDate | slice: 0, 3 %}
+  {% assign splitDate = eventDate | split: '&' %}
+  {% assign endDate = splitMonth | append: splitDate[1] %}
+{% elsif  eventDate contains '-' %}
+  <!-- Separate the string after '-' and create end date from that -->
+  {% assign splitMonth = eventDate | slice: 0, 3 %}
+  {% assign splitDate = eventDate | split: '-' %}
+  {% assign endDate = splitMonth | append: splitDate[1] %}
+{% else %}
+  <!-- Date is one day, proceed as normal -->
+  {% assign endDate = eventDate %}
+{% endif %}
+
+{% assign endDate = endDate | date: '%s' %}
+{% assign offset = 1 | times: 24 | times: 60 | times: 60 %}
+{% assign endDate = endDate | plus: offset | date: '%s' %}
+
+<!-- Todays Date -->
+{% assign today = 'now' | date: '%s' %}
+
+<p>
+  {% if endDate >= today %}
+    {% assign show = true %}
+  {% else %}
+    {% assign show = false %}
+  {% endif %}
+</p>
