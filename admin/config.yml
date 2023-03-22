@@ -105,17 +105,17 @@ collections:
               - {label: "Author title", name: "author_title", widget: "string", hint: "Author's job title", required: false}
               - {label: "Author company", name: "author_company", widget: "string", hint: "Author's company", required: false}
               - {label: "Call to action", name: "cta", widget: "string", hint: "Optional banner at the bottom of the page", required: false}
-      - label: "Features"
+      - label: "Donor Updates"
         name: "features"
         file: "_data/slideshow2/features.yml"
         fields:
-          - label: "Features"
+          - label: "Donor Updates"
             name: "slides"
             widget: "list"
             collapsed: true
             add_to_top: true
             summary: "{{fields.title}}"
-            label_singular: "Feature"
+            label_singular: "Update"
             fields:
               - label: "Layout"
                 name: "layout"

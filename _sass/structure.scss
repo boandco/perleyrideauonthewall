@@ -1,4 +1,5 @@
 $padding-value: 4vw;
+$slide-duration: 20s;
 * {
   box-sizing: border-box;
 }
@@ -6,13 +7,45 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Public Sans', sans-serif;
-  background: $color-shade-100;
+  background: darken($color-purple-100, 20);
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   font-size: 1.2em;
   &:fullscreen {
     cursor: none;
+  }
+}
+
+.progress-indicator {
+  height: 4px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: darken($color-purple-100, 10);
+  z-index: 99;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: $color-yellow-100;
+  }
+  &.running {
+    &:after {
+      animation: slide-progress var(--slide-duration) linear;
+      @keyframes slide-progress {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    }
   }
 }
 
@@ -31,6 +64,21 @@ h2 {
   }
   &.dark {
     background: $color-shade-100;
+  }
+}
+p.badge {
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.8em;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  &.white {
+    background: $color-shade-00;
+    color: $color-shade-100;
+  }
+  &.yellow {
+    background: $color-yellow-100;
+    color: $color-shade-100;
   }
 }
 

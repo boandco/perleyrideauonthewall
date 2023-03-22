@@ -1,6 +1,7 @@
 //Config
 var slide_duration = 20000 //20000 default
 const scrollSpeed = 50 //50 default
+const progress = document.querySelector('.progress-indicator')
 //Init slideshow
 var slides = []
 var currentSlide = 0
@@ -9,11 +10,18 @@ document.querySelectorAll('.slide').forEach((x) => {
   slides.push(x.getAttribute('id'))
 })
 
+// Comment out the line below to pause
 initSlide()
 
 function initSlide() {
   document.querySelector(`.slide#${ slides[currentSlide] }`).classList.add('active')
   let duration = slideDuration(0)
+
+  //Set indicator time
+  progress.style.setProperty(`--slide-duration`, `${slideDuration(0)}ms`)
+  progress.classList.add('running')
+  
+
   console.log('Queueing next slide transition in', duration)
   setTimeout(changeSlide, duration)
 }
@@ -28,6 +36,12 @@ function slideDuration(index) {
 function changeSlide() {
   document.querySelector(`.slide#${ slides[currentSlide] }`).classList.add('is-exiting')
   document.querySelector(`.slide#${ slides[nextSlide] }`).classList.add('active')
+  
+  //Set indicator time
+  progress.classList.remove('running')
+  progress.offsetHeight
+  progress.style.setProperty(`--slide-duration`, `${slideDuration(nextSlide)}ms`)
+  progress.classList.add('running')
 
   //Queue nextslide
   let duration = slideDuration(nextSlide)

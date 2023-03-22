@@ -1,10 +1,10 @@
 $transition-timing: 1.5s cubic-bezier(0.83, 0, 0.17, 1);
-$transition-delay: 1.2s;
+$transition-delay: 1s;
 .slide {
   .animate {
     &.fade {
       transition: opacity $transition-timing;
-      transition-delay: $transition-delay;
+      transition-delay: $transition-delay * 1.5;
       opacity: 0;
     }
     &.slide-up {

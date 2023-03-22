@@ -22,6 +22,7 @@
   }
   .heading {
     color: $color-yellow-100;
+    max-width: 57%;
     h2 {
       margin-bottom: 1em;
     }
@@ -30,7 +31,7 @@
     max-width: 80%;
   }
   .cta {
-    width: 100%;
+    width: 100vw;
     padding: 1em $padding-value;
     position: relative;
     bottom: 0;

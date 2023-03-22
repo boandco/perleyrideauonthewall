@@ -1,0 +1,134 @@
+---
+layout: "slideshow"
+permalink: "/slideshow2/"
+---
+
+<!-- Welcome slide -->
+<div id="welcome" class="slide welcome">
+  <div class="graphic">{% include graphics/bullet.html %}</div>
+  <div class="heading padding-n padding-we">
+    <h2 class="animate slide-up"><span>{{ site.data.slideshow2.welcome.title }}</span></h2>
+    <div class="divider light"></div>
+  </div>
+  <div class="bottom">
+    <div class="description padding-we padding-s animate fade">
+      {{ site.data.slideshow2.welcome.description | markdownify }}
+    </div>
+    {% if site.data.slideshow2.welcome.cta %}
+      <div class="cta">
+        {{ site.data.slideshow2.welcome.cta }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Events slides -->
+{% for event in site.data.slideshow2.events.slides %}
+  {% assign eventDate = event.date %}
+  {% if eventDate contains '&' %}
+    <!-- Separate the string after '&' and create end date from that -->
+    {% assign splitMonth = eventDate | slice: 0, 3 %}
+    {% assign splitDate = eventDate | split: '&' %}
+    {% assign endDate = splitMonth | append: splitDate[1] %}
+  {% elsif  eventDate contains '-' %}
+    <!-- Separate the string after '-' and create end date from that -->
+    {% assign splitMonth = eventDate | slice: 0, 3 %}
+    {% assign splitDate = eventDate | split: '-' %}
+    {% assign endDate = splitMonth | append: splitDate[1] %}
+  {% else %}
+    <!-- Date is one day, proceed as normal -->
+    {% assign endDate = eventDate %}
+  {% endif %}
+
+  {% assign endDate = endDate | date: '%s' %}
+  {% assign offset = 1 | times: 24 | times: 60 | times: 60 %}
+  {% assign endDate = endDate | plus: offset | date: '%s' %}
+
+  <!-- Todays Date -->
+  {% assign today = 'now' | date: '%s' %}
+
+  {% if endDate >= today %}
+    {% assign show = true %}
+  {% else %}
+    {% assign show = false %}
+  {% endif %}
+
+  {% if show %}
+    <div id="event-{{ forloop.index }}" class="slide events">
+      <div class="event-information">
+        <div class="event-heading padding-n padding-we">
+          <p class="badge white animate fade">Upcoming Events</p>
+          <h2 class="animate slide-up"><span>{{ event.title }}</span></h2>
+          <div class="description animate fade">
+            {{ event.description | markdownify }}
+          </div>
+        </div>
+        <div class="event-details">
+          <div class="event-date">
+            <p class="date animate slide-up"><span>{{ event.date }}</span></p>
+            <p class="details animate fade">{% if event.time %}{{ event.time}} &#8212; {% endif %}{{ event.location }}</p>
+          </div>
+          <div class="qr-code">
+            <div class="code-image">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?data={{ event.url }}&size=250x250">
+            </div>
+            <div class="scan-text">
+              {% include graphics/qr-code-scan.html %} Scan me
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="/{{ event.image }}">
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+<!-- In the news slides -->
+{% for news in site.data.slideshow2.news.slides %}
+    <div id="news-{{ forloop.index }}" class="slide news">
+      <div class="news-feature">
+        <div class="news-quote padding-n padding-we">
+          <p class="badge yellow animate fade">In the news</p>
+          <h3 class="animate fade">{{ news.title }}</h2>
+          <div class="quote">
+            <div class="icon">
+              {% include graphics/quote-icon.html %}
+            </div>
+            <div class="content animate fade">
+              {{ news.quote | markdownify }}
+            </div>
+          </div>
+          <div class="author animate fade">
+            <p>{{ news.author_name }}</p>
+            {% if news.author_title %}<p>{{ news.author_title }}</p>{% endif %}
+            {% if news.author_company %}<p>{{ news.author_company }}</p>{% endif %}
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="/{{ news.image }}">
+        </div>
+      </div>
+      <div class="cta animate slide-up">
+        <span>
+          {{ news.cta }}
+        </span>
+      </div>
+    </div>
+{% endfor %}
+
+<!-- Donor updates slide -->
+{% for feature in site.data.slideshow2.features.slides %}
+    <div id="feature-{{ forloop.index }}" class="slide features {{ feature.layout }}">
+      <div class="content-container padding-nsew">
+        <h2 class="animate slide-up"><span>{{ feature.title }}</span></h2>
+        <div class="description animate fade">
+          {{ feature.description | markdownify }}
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="/{{ feature.image }}">
+      </div>
+    </div>
+{% endfor %}

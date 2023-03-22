@@ -1,6 +1,6 @@
 <!-- {% include checkDate.html date='Mar 12-14' %} -->
 <!-- Script returns the 'show' boolean variable based on the passed dates -->
-{% assign eventDate = include.date %}
+{% assign eventDate = event.date %}
 {% if eventDate contains '&' %}
   <!-- Separate the string after '&' and create end date from that -->
   {% assign splitMonth = eventDate | slice: 0, 3 %}
