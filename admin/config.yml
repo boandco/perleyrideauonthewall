@@ -59,12 +59,12 @@ collections:
           - {label: "Title", name: "title", widget: "string", hint: "The large headline"}
           - {label: "Description", name: "description", widget: "markdown", hint: "Main content of the page"}
           - {label: "Call to action", name: "cta", widget: "string", hint: "Optional banner at the bottom of the page", required: false}
-      - label: "Upcoming Events"
+      - label: "Upcoming events"
         name: "events"
         file: "_data/slideshow2/events.yml"
         fields:
           - label: "Events"
-            name: "events"
+            name: "slides"
             widget: "list"
             collapsed: true
             add_to_top: true
@@ -80,4 +80,53 @@ collections:
               - {label: "Description", name: "description", widget: "markdown", hint: "A brief description of the event"}
               - {label: "Location", name: "location", widget: "string", hint: "The location of the event. (ex: Ottawa City Hall, or Online)"}
               - {label: "Event URL", name: "url", widget: "string", hint: "The URL for the event will display as a QR code"}
-              - {label: "Dates", name: "date", widget: "datetime", hint: "Enter the date(s) of the event"}
+              - {label: "Date", name: "date", widget: "string", hint: "Enter the date(s) of the event, use 3 letter month format (ex: Mar, Apr, Aug)"}
+              - {label: "Time", name: "time", widget: "string", required: false, hint: "Enter the time of the event"}
+      - label: "In the news"
+        name: "news"
+        file: "_data/slideshow2/news.yml"
+        fields:
+          - label: "News"
+            name: "slides"
+            widget: "list"
+            collapsed: true
+            add_to_top: true
+            summary: "{{fields.title}} - {{fields.author_name}}"
+            label_singular: "News feature"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                allow_multiple: false
+                choose_url: false
+              - {label: "Title", name: "title", widget: "string", hint: "Headline for the quote"}
+              - {label: "Quote", name: "quote", widget: "markdown", hint: "A brief description of the event. Max 280 characters.", pattern: ['^.{0,280}$', "Can't have more than 280 characters"]}
+              - {label: "Author name", name: "author_name", widget: "string", hint: "Author of the quote"}
+              - {label: "Author title", name: "author_title", widget: "string", hint: "Author's job title", required: false}
+              - {label: "Author company", name: "author_company", widget: "string", hint: "Author's company", required: false}
+              - {label: "Call to action", name: "cta", widget: "string", hint: "Optional banner at the bottom of the page", required: false}
+      - label: "Features"
+        name: "features"
+        file: "_data/slideshow2/features.yml"
+        fields:
+          - label: "Features"
+            name: "slides"
+            widget: "list"
+            collapsed: true
+            add_to_top: true
+            summary: "{{fields.title}}"
+            label_singular: "Feature"
+            fields:
+              - label: "Layout"
+                name: "layout"
+                widget: "select"
+                options:
+                  - {label: "Portrait", value: "portrait"}
+                  - {label: "Landscape", value: "landscape"}
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                allow_multiple: false
+                choose_url: false
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}

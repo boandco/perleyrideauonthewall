@@ -1,8 +1,8 @@
 <!-- {% include checkDate.html date='Mar 12-14' %} -->
+<!-- Script returns the 'show' boolean variable based on the passed dates -->
 {% assign eventDate = include.date %}
 {% if eventDate contains '&' %}
   <!-- Separate the string after '&' and create end date from that -->
-  <!-- Script returns the 'show' boolean variable based on the passed dates -->
   {% assign splitMonth = eventDate | slice: 0, 3 %}
   {% assign splitDate = eventDate | split: '&' %}
   {% assign endDate = splitMonth | append: splitDate[1] %}
@@ -23,10 +23,8 @@
 <!-- Todays Date -->
 {% assign today = 'now' | date: '%s' %}
 
-<p>
-  {% if endDate >= today %}
-    {% assign show = true %}
-  {% else %}
-    {% assign show = false %}
-  {% endif %}
-</p>
+{% if endDate >= today %}
+  {% assign show = true %}
+{% else %}
+  {% assign show = false %}
+{% endif %}
