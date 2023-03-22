@@ -28,6 +28,7 @@
         border-radius: 0 5em 0 0;
         background: $color-purple-100;
         color: $color-shade-00;
+        flex-grow: 1;
         p {
           margin: 0;
           &.date {

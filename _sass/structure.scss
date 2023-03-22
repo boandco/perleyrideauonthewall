@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Public Sans', sans-serif;
-  background: darken($color-purple-100, 20);
+  background: darken($color-purple-100, 30);
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -50,8 +50,10 @@ body {
 }
 
 //Shared elements
-h2 {
+h2,h3 {
   margin: 0;
+}
+h2 {
   font-size: 2.8em;
 }
 .divider {
@@ -72,6 +74,7 @@ p.badge {
   font-size: 0.8em;
   padding: 0.5em 1em;
   border-radius: 50px;
+  margin: 0 0 1em 0;
   &.white {
     background: $color-shade-00;
     color: $color-shade-100;
