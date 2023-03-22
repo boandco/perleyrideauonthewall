@@ -1,15 +1,4 @@
 slides:
-  - image: assets/images/uploads/veterans-2023.jpeg
-    title: Meet the team
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at mi
-      ac dolor gravida commodo. Sed ac semper dolor, eu mollis lacus. Vestibulum
-      id mauris ante. Sed interdum lorem quis augue tempus, in lobortis libero
-      sollicitudin. Curabitur euismod tincidunt nunc, id maximus mauris interdum
-      ut.
-    location: Parliament Hill
-    url: https://www.google.com/maps
-    date: Apr 28-29
-    time: 7:00 PM
   - image: assets/images/uploads/event-pea-soup.jpg
     title: Perley Pea Soup
     description: Warm up with a bowl of Perley Pea Soup this season.  Kanata Soups
