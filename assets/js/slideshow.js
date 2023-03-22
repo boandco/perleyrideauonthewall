@@ -1,3 +1,10 @@
+//Get the current build id
+
+//Check the build id each time the slideshow starts over
+
+//If different, refresh the page
+
+
 //Config
 var slide_duration = 20000 //20000 default
 const scrollSpeed = 50 //50 default
