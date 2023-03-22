@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/version"
+  for = "/version/"
   [headers.values]
-    Access-Control-Allow-Origin=*
+    Access-Control-Allow-Origin = "*"
