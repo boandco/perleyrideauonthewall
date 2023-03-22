@@ -61,11 +61,14 @@ function changeSlide() {
     currentSlide = nextSlide
     if ((nextSlide + 1) > (slides.length - 1)) {
       nextSlide = 0
+
       //Check Build ID
       var xhttp = new XMLHttpRequest()
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          console.log('Site build ID', xhttp.responseText)
+          if (xhttp.responseText != buildEnv) {
+            reload = true
+          }
         }
       }
       xhttp.open("GET", versionURL, true)

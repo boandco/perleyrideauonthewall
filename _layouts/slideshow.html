@@ -9,7 +9,7 @@
       {{ content }}
     </div>
     <script>
-      const buildEnv = '{{ site.env.BUILD_ID }}' || 'tempbuildid'
+      const buildEnv = '{{ site.env.BUILD_ID }}'
       const versionURL = 'https://incredible-monstera-2c155a.netlify.app/version'
       console.log(`Build ${ buildEnv } + ${ versionURL }`)
     </script>
