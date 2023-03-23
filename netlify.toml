@@ -2,11 +2,13 @@
   from = "/slideshow1/*"
   to = "/slideshow1"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/slideshow2/*"
   to = "/slideshow2"
   status = 301
+  force = true
 
 [[headers]]
   for = "/version/"
