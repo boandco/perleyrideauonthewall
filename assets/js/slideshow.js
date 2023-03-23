@@ -137,3 +137,13 @@ function resetSlides() {
     document.querySelector(`.slide#${ slides[resetSlideIndex] }`).classList.remove('is-exiting')
   }, 2000)
 }
+
+//Cursor management
+let checkCursor
+document.querySelector('.slideshow').addEventListener('mousemove', () => {
+  document.querySelector('.slideshow').style.cursor = 'inherit'
+  clearTimeout(checkCursor)
+  checkCursor = setTimeout(() => {
+    document.querySelector('.slideshow').style.cursor = 'none'
+  }, 800)
+})
