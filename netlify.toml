@@ -1,3 +1,5 @@
+/* /404.html 404
+
 [[headers]]
   for = "/version/"
   [headers.values]
