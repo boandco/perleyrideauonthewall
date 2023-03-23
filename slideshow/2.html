@@ -124,7 +124,7 @@ permalink: "/slideshow2/"
 
 <!-- Donor updates slide -->
 {% for feature in site.data.slideshow2.features.slides %}
-    <div id="feature-{{ forloop.index }}" class="slide features {{ feature.layout }} {% if forloop.index == 1 %}active{% endif %}">
+    <div id="feature-{{ forloop.index }}" class="slide features {{ feature.layout }}">
       <div class="content-container padding-nsew">
         <h2 class="animate slide-up"><span>{{ feature.title }}</span></h2>
         <div class="description animate fade">

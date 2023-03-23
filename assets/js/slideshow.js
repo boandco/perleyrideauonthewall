@@ -10,7 +10,7 @@ var reload = false
 var removeDate = false
 
 // Comment out the line below to pause
-// initSlide()
+initSlide()
 
 function initSlide() {
   console.log(`Initializing. Current slide: ${currentSlide} | Next slide: ${nextSlide}`)
