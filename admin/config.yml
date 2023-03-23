@@ -130,3 +130,18 @@ collections:
                 choose_url: false
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Description", name: "description", widget: "markdown"}
+  - label: "Maintenance page"
+    name: "maintenance"
+    editor:
+      preview: false
+    files:
+      - label: "Banner"
+        name: "banner"
+        file: "_data/maintenance.yml"
+        fields:
+          - label: "Banner image"
+            name: "image"
+            widget: "image"
+            allow_multiple: false
+            choose_url: false
+          - {label: "Title", name: "title", widget: "string"}
