@@ -1,4 +1,12 @@
 slides:
+  - image: assets/images/uploads/event-pea-soup.jpg
+    title: Perley Pea Soup
+    description: Warm up with a bowl of Perley Pea Soup this season.  Kanata Soups
+      is generously donating a portion from each bag of Pea Soup sold.  Order
+      online or stop by the foundation office to get yours today.
+    url: www.kanatasoup.ca
+    location: Online
+    date: Mar 31
   - image: assets/images/uploads/veterans-2023.jpeg
     title: Meet the team
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at mi
@@ -8,16 +16,8 @@ slides:
       ut.
     location: Parliament Hill
     url: https://www.google.com/maps
-    date: Apr 28-29
+    date: Mar 12-14
     time: 7:00 PM
-  - image: assets/images/uploads/event-pea-soup.jpg
-    title: Perley Pea Soup
-    description: Warm up with a bowl of Perley Pea Soup this season.  Kanata Soups
-      is generously donating a portion from each bag of Pea Soup sold.  Order
-      online or stop by the foundation office to get yours today.
-    url: www.kanatasoup.ca
-    location: Online
-    date: Mar 31
   - image: assets/images/uploads/ottawa-race-weekend.jpg
     title: 2023 Ottawa Race Weekend
     description: Register today and join Team Perley Health Foundation for the 2023

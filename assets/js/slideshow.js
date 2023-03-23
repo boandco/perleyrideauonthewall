@@ -7,20 +7,23 @@ var slides = []
 var currentSlide = 0
 var nextSlide = 1
 var reload = false
-
-document.querySelectorAll('.slide').forEach((x) => {
-  slides.push(x.getAttribute('id'))
-})
+var removeDate = false
 
 // Comment out the line below to pause
 initSlide()
 
 function initSlide() {
+  console.log(`Initializing. Current slide: ${currentSlide} | Next slide: ${nextSlide}`)
+
+  document.querySelectorAll('.slide').forEach((x) => {
+    slides.push(x.getAttribute('id'))
+  })
+
   document.querySelector(`.slide#${ slides[currentSlide] }`).classList.add('active')
-  let duration = slideDuration(0)
+  let duration = slideDuration([currentSlide])
 
   //Set indicator time
-  progress.style.setProperty(`--slide-duration`, `${slideDuration(0)}ms`)
+  progress.style.setProperty(`--slide-duration`, `${slideDuration([currentSlide])}ms`)
   progress.classList.add('running')
 
   console.log('Queueing next slide transition in', duration)
@@ -30,6 +33,20 @@ function initSlide() {
 function slideDuration(index) {
   if (currentSlide > -1) {
     return document.querySelector(`.slide#${ slides[index] }`).getAttribute('data-duration') || slide_duration
+  }
+}
+function slideDate(index) {
+  if (currentSlide > -1) {
+    return document.querySelector(`.slide#${ slides[index] }`).getAttribute('data-date') || null
+  }
+}
+function checkDate() {
+  let eventDate = slideDate(nextSlide)
+  if (eventDate) {
+    let today = new Date().setHours(0,0,0,0) / 1000
+    if (eventDate < today) {
+      removeDate = true
+    }
   }
 }
 
@@ -51,33 +68,39 @@ function changeSlide() {
   //Queue nextslide
   let duration = slideDuration(nextSlide)
   console.log('Queueing next slide transition in', duration)
-  setTimeout(changeSlide, duration)
 
-  //Cleanup
-  setTimeout(() => {
-    let current = document.querySelector(`.slide#${ slides[currentSlide] }`)
-    current.classList.remove('active')
-    current.classList.remove('is-exiting')
-    currentSlide = nextSlide
-    if ((nextSlide + 1) > (slides.length - 1)) {
-      nextSlide = 0
+  checkDate()
 
-      //Check Build ID
-      var xhttp = new XMLHttpRequest()
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          if (xhttp.responseText != buildEnv) {
-            reload = true
+  if (removeDate) {
+    resetSlides()
+  } else {
+    setTimeout(changeSlide, duration)
+    //Cleanup
+    setTimeout(() => {
+      let current = document.querySelector(`.slide#${ slides[currentSlide] }`)
+      current.classList.remove('active')
+      current.classList.remove('is-exiting')
+      currentSlide = nextSlide
+      if ((nextSlide + 1) > (slides.length - 1)) {
+        nextSlide = 0
+  
+        //Check Build ID
+        var xhttp = new XMLHttpRequest()
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            if (xhttp.responseText != buildEnv) {
+              reload = true
+            }
           }
         }
+        xhttp.open("GET", versionURL, true)
+        xhttp.send()
+      } else {
+        nextSlide ++
       }
-      xhttp.open("GET", versionURL, true)
-      xhttp.send()
-    } else {
-      nextSlide ++
-    }
-    console.log('set next slide to ', nextSlide)
-  }, 2000)
+      console.log('set next slide to ', nextSlide)
+    }, 2000)
+  }
 }
 
 if (document.querySelector('.donations')) {
@@ -93,4 +116,24 @@ if (document.querySelector('.donations')) {
       donorList.classList.add('center')
     }
   })
+}
+
+function resetSlides() {
+  console.log('Removing dates')
+  document.querySelector(`.slide#${ slides[nextSlide] }`).remove()
+  
+  let resetSlideIndex = currentSlide
+  
+  removeDate = false
+  slides = []
+  
+  currentSlide ++
+  nextSlide ++
+
+  initSlide()
+
+  setTimeout(function() {
+    document.querySelector(`.slide#${ slides[resetSlideIndex] }`).classList.remove('active')
+    document.querySelector(`.slide#${ slides[resetSlideIndex] }`).classList.remove('is-exiting')
+  }, 2000)
 }
