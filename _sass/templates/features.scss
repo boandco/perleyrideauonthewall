@@ -20,6 +20,10 @@
     align-items: center;
     padding: 1em;
     flex-grow: 1;
+    img {
+      max-height: 95%;
+      max-width: 95%;
+    }
   }
 
   &.portrait {
@@ -30,11 +34,6 @@
     .image-container {
       width: 100%;
       height: 100vh;
-      img {
-        max-width: 50vw;
-        width: 100%;
-        height: auto;
-      }
     }
   }
   &.landscape {
@@ -51,11 +50,6 @@
     .image-container {
       height: 50%;
       width: 100vw;
-      img {
-        max-height: 50vw;
-        height: 100%;
-        width: auto;
-      }
     }
   }
 }
