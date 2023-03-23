@@ -15,7 +15,7 @@ body {
 }
 
 .progress-indicator {
-  height: 4px;
+  height: 10px;
   width: 100vw;
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 4px;
+    height: 10px;
     width: 100%;
     background: $color-yellow-100;
   }
