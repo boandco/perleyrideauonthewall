@@ -1,3 +1,0 @@
-# Redirects from what the browser requests to what we serve
-/slideshow1/*                /slideshow1
-/slidesho2/*                /slideshow2
