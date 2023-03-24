@@ -70,14 +70,16 @@ permalink: "/slideshow2/"
             <p class="date animate slide-up"><span>{{ event.date }}</span></p>
             <p class="details animate fade">{% if event.time %}{{ event.time}} &#8212; {% endif %}{{ event.location }}</p>
           </div>
-          <div class="qr-code animate fade">
-            <div class="code-image">
-              <img src="https://api.qrserver.com/v1/create-qr-code/?data={{ event.url }}&size=250x250">
+          {% if event.url %}
+            <div class="qr-code animate fade">
+              <div class="code-image">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?data={{ event.url }}&size=250x250">
+              </div>
+              <div class="scan-text">
+                {% include graphics/qr-code-scan.html %} Scan me
+              </div>
             </div>
-            <div class="scan-text">
-              {% include graphics/qr-code-scan.html %} Scan me
-            </div>
-          </div>
+          {% endif %}
         </div>
       </div>
       <div class="image-container">
