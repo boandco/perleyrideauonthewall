@@ -1,6 +1,6 @@
 //Config
 var slide_duration = 20000 //20000 default
-const scrollSpeed = 50 //50 default
+const scrollSpeed = 20 //50 default
 const progress = document.querySelector('.progress-indicator')
 //Init slideshow
 var slides = []
