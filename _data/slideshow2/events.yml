@@ -1,4 +1,12 @@
 slides:
+  - image: assets/images/uploads/pickleball.jpg
+    title: "Pickleball Tournament "
+    description: Perley Health Foundation will be hosting a Pickleball Tournament on
+      September 14th at the RA Centre. Keep your eyes out for more information!
+      Registration will open soon.
+    location: RA Centre
+    date: Sep 14
+    time: 3PM-6PM
   - image: assets/images/uploads/kanata-soup.jpg
     title: Perley Pea Soup
     description: We are excited to partner with Kanata Soup for the purchase of
