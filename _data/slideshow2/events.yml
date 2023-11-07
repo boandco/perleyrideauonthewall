@@ -1,9 +1,11 @@
 slides:
-  - image: assets/images/uploads/_donor-wall-23-knitting-sale-post-.jpg
-    title: Annual Knitting Sale
-    description: The Knitting Club is putting on their Annual Knitting Sale on
-      Friday Notvember 3rd! All proceeds will gfo to the Perley Health
-      Foundation. Stop by and check out all the goodies! Cash Only
-    location: Across from the Donor Wall (Former Swab Clinic)
-    date: Nov 3
-    time: 9:30-12
+  - image: assets/images/uploads/flag.jpg
+    title: Plant a Flag!
+    description: This Remembrance Daym join us in paying tribute to the brace men
+      and women who selflessly served our country. For every gift donated to the
+      Perley Health Foundation, a Canadian Flag will be planted onsite at Perley
+      Health as a symbol of remembrance!
+    location: Foundation Office
+    date: Nov 11
+    time: ""
+    url: https://perleyhealthfoundation.ca/ways-to-donate/remembrance-day-tribute/
