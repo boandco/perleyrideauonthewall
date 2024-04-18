@@ -1,4 +1,11 @@
 slides:
+  - description: Thank you to the Cornwall Legion Riders for your generous donation
+      of $12,000. This donation will go towards purchasing new mattresses for
+      the Veterans who call the Rideau Residence home. You have given the gift
+      of a good night's sleep!
+    title: Thank you Cornwall Legion Riders!
+    image: assets/images/uploads/cornwall-legion-riders-cheque-presentation.jpg
+    layout: landscape
   - layout: landscape
     title: Thank you Royal Canadian Legion Branch 462!
     description: Thank you to the Royal Canadian Legion Branch 462 Eastview for
