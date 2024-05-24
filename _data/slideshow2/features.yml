@@ -1,15 +1,15 @@
 slides:
-  - image: assets/images/uploads/team-picture-24-orw-6-.png
+  - image: assets/images/uploads/img_1704.jpeg
     layout: landscape
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
-  - image: assets/images/uploads/team-picture-24-orw-5-.png
+  - image: assets/images/uploads/sam-and-christine.jpg
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
-    layout: landscape
-  - image: assets/images/uploads/team-picture-24-orw-3-.png
+    layout: portrait
+  - image: assets/images/uploads/img_1725.jpeg
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
@@ -17,21 +17,21 @@ slides:
   - description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
     title: Cheer on Team Perley Health!
-    image: assets/images/uploads/team-picture-24-orw.png
-    layout: landscape
+    image: assets/images/uploads/img_1713.jpeg
+    layout: portrait
   - layout: portrait
     title: Thank you Commissionaires Ottawa!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend! A big thank you Commissionaires Ottawa for matching
       all donations made!
-    image: assets/images/uploads/team-picture-24-orw-1-.png
+    image: assets/images/uploads/img_1708.jpeg
   - layout: landscape
-    image: assets/images/uploads/team-picture-24-orw-2-.png
+    image: assets/images/uploads/img_1719.jpeg
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
   - layout: portrait
-    image: assets/images/uploads/team-picture-24-orw-4-.png
+    image: assets/images/uploads/img_1727.jpeg
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
