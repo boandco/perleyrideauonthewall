@@ -1,9 +1,4 @@
 slides:
-  - image: assets/images/uploads/img_1737.jpeg
-    layout: portrait
-    description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
-      Weekend THIS Weekend!
-    title: Cheer on Team Perley Health!
   - image: assets/images/uploads/img_1704.jpeg
     layout: landscape
     title: Cheer on Team Perley Health!
@@ -37,6 +32,21 @@ slides:
       Weekend THIS Weekend!
   - layout: portrait
     image: assets/images/uploads/img_1727.jpeg
+    title: Cheer on Team Perley Health!
+    description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
+      Weekend THIS Weekend!
+  - image: assets/images/uploads/img_1737.jpeg
+    layout: portrait
+    description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
+      Weekend THIS Weekend!
+    title: Cheer on Team Perley Health!
+  - image: assets/images/uploads/img_1743.jpeg
+    layout: landscape
+    title: Cheer on Team Perley Health!
+    description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
+      Weekend THIS Weekend!
+  - image: assets/images/uploads/img_1751.jpeg
+    layout: portrait
     title: Cheer on Team Perley Health!
     description: Cheer on Team Perley Health as they walk and run in the Ottawa Race
       Weekend THIS Weekend!
