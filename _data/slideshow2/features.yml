@@ -14,6 +14,11 @@ slides:
     title: WE DID IT!
     description: Team Perley Health successfully ran and walked in the Ottawa Race
       Weekend! Make sure to congratulate the team members when you see them!
+  - image: assets/images/uploads/coughlin-logo.jfif
+    layout: portrait
+    title: Thank you Coughlin!
+    description: Thank you to Coughlin for sponsoring Team Perley Health in the
+      Ottawa Race Weekend!
   - image: assets/images/uploads/kelly.jpeg
     layout: portrait
     title: WE DID IT!
@@ -34,6 +39,11 @@ slides:
     title: WE DID IT!
     description: Team Perley Health successfully ran and walked in the Ottawa Race
       Weekend! Make sure to congratulate the team members when you see them!
+  - image: assets/images/uploads/com_ottawa-eng_2955-165-rgb-002-.png
+    layout: landscape
+    title: Thank you Commissionaires Ottawa!
+    description: Thank you Commissionaires Ottawa for sponsoring Team Perley Health
+      in the Ottawa Race Weekend by matching all donations up to $50,000!
   - image: assets/images/uploads/bernadette-joe.jpg
     layout: landscape
     title: WE DID IT!
@@ -70,6 +80,11 @@ slides:
     title: WE DID IT!
     description: Team Perley Health successfully ran and walked in the Ottawa Race
       Weekend! Make sure to congratulate the team members when you see them!
+  - image: assets/images/uploads/black-sheet.png
+    layout: landscape
+    title: Thank you Black Sheep Designs!
+    description: Thank you to Black Sheep Designs for being Team Perley Health's
+      T-Shirt sponsor for the Ottawa Race Weekend!
   - layout: portrait
     image: assets/images/uploads/img_1727.jpeg
     title: WE DID IT!
