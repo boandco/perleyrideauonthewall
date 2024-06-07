@@ -1,4 +1,9 @@
 slides:
+  - image: assets/images/uploads/24orw-collage.png
+    layout: portrait
+    title: WE DID IT!
+    description: Team Perley Health successfully ran and walked in the Ottawa Race
+      Weekend! Make sure to congratulate the team members when you see them!
   - image: assets/images/uploads/dgaepm.jfif
     layout: landscape
     title: Thank you DGAEPM
@@ -19,8 +24,3 @@ slides:
     title: Thank you Black Sheep Designs!
     description: Thank you to Black Sheep Designs for being Team Perley Health's
       T-Shirt sponsor for the Ottawa Race Weekend!
-  - image: assets/images/uploads/24orw-collage.png
-    layout: portrait
-    title: WE DID IT!
-    description: Team Perley Health successfully ran and walked in the Ottawa Race
-      Weekend! Make sure to congratulate the team members when you see them!
