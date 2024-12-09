@@ -1,18 +1,19 @@
 slides:
-  - layout: landscape
-    image: assets/images/uploads/image00111.jpg
-    title: Thank you Royal Canadian Legion!
-    description: Thank you to the Royal Canadian Legions for their ongoing support
-      and dedication to Perley Health. In 2024, they legions donated over
-      $250,000 to purchase items from the Veteran's Priority Needs List
-      providing exceptional care for the veterans who call the Rideau Residence
-      their home!
-  - image: assets/images/uploads/30844b65-e312-466b-b9c8-d871854eb353.jpg
+  - layout: portrait
+    image: assets/images/uploads/greely-legion-cheque-presentation-v12.jpg
+    title: Thank you Royal Canadian Legion Br 627 Greely!
+    description: Thank you  Royal Canadian Legion Br 627 Greely for your generous
+      donation of $5,000! This donation will go towards purchasing items on the
+      Veteran Priority Needs List providing comfort to those who call the Rideau
+      Residence home.
+  - image: assets/images/uploads/img_4985.jpg
     layout: landscape
-    title: Thank you Ottawa Corporate Cup!
-    description: Thank you to Ottawa Corporate Cup for having us as one of the
-      charities to be supported at your Golf Tournament! Thank you also to Board
-      Member Chris Bockstael for choosing us as your charity of choice!
+    title: Thank you Canadian Naval Engineer's Quart Club!
+    description: Thank you to Canadian Naval Engineer's Quart Club for your generous
+      donation of $7,259.50! This donation will go towards purchasing items on
+      the Veteran Priority Needs List providing comfort to those who call the
+      Rideau Residence home. Thank you for coming and spending time with our
+      Veterans in the pub!
   - image: assets/images/uploads/img_4948.jpg
     layout: portrait
     title: Thank you Masons of Ottawa District No. 1!
