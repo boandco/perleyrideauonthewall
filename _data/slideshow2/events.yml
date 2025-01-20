@@ -1,10 +1,18 @@
 slides:
-  - url: "www.perleyhealthfoundation.ca/holiday-giving "
-    title: Double Your Gift This Christmas!
-    description: Your holiday gift to Perley Health Foundation by midnight Dec 24th
-      will be **DOUBLED** up to $9,000 thanks to the generosity of OREB and
-      Ontario REALTORS Care Foundation. Please give as generously as you can and
-      have twice the impact for Seniors and Veterans.
-    image: assets/images/uploads/beryl-montgomery-boeing-15_cropped.jpeg
-    location: Online (Scan QR Code)
-    date: Dec 1 - Dec 25
+  - image: assets/images/uploads/orw-posters-christine-sam.png
+    title: "Support Team Perley Health! "
+    description: Support Team Perley Health in the 2025 Ottawa Race Weekend! By
+      supporting the team, you're helping to Bridge Generations by funding a
+      ground breaking intergenerational program. Your efforts will bring
+      together seniors, Veterans and children in meaningful, life-changing ways!
+    url: "https://www.justgiving.com/campaign/team-perley-health-2025 "
+    location: Scan the QR code to donate today!
+    date: Jan 1 - Jun 1
+  - url: https://perleyhealthfoundation.ca/2025-ottawa-race-weekend-registration/
+    title: Join Team Perley Health! 🏃‍♀️
+    description: Team Perley Health is back and stronger than ever! Join the team in
+      the 2025 Ottawa Race Weekend so we can go the distance for seniors and
+      Veterans together!
+    image: assets/images/uploads/24orw-collage.png
+    location: In Person at City Hall or Virtual
+    date: May 24-25
