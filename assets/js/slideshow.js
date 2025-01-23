@@ -12,6 +12,12 @@ var removeDate = false
 // Comment out the line below to pause
 initSlide()
 
+function goToSlide(num) {
+  document.querySelector(`.slide#${ slides[currentSlide] }`).classList.add('is-exiting')
+  document.querySelector(`.slide#${ slides[num] }`).classList.add('active')
+  currentSlide = num
+}
+
 function initSlide() {
   console.log(`Initializing. Current slide: ${currentSlide} | Next slide: ${nextSlide}`)
 

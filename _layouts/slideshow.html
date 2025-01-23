@@ -12,6 +12,21 @@
       const buildEnv = '{{ site.env.BUILD_ID }}'
       const versionURL = 'https://incredible-monstera-2c155a.netlify.app/version'
     </script>
+    <script type="text/javascript" src="/assets/js/qrcode.min.js"></script>
+    <script>
+      if (document.querySelector('.qrcode')) {
+        document.querySelectorAll('.qrcode').forEach((x) => {
+          var qrcode = new QRCode(x, {
+            text: x.getAttribute('data-url'),
+            width: 200,
+            height: 200,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+          })
+        })
+      }
+    </script>
     <script type="text/javascript" src="/assets/js/slideshow.js"></script>
   </body>
 </html>
