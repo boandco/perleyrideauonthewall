@@ -1,20 +1,11 @@
 slides:
-  - image: assets/images/uploads/fred-and-joan-abeysundera.jpg
-    title: " Your Support Brings Comfort and Quality of Life"
-    quote: Thanks to your caring generosity, Joan lives in a vibrant community with
-      dedicated caregivers, engaging recreational programs, and excellent meals.
-      Fred takes comfort in knowing Joan is in the best hands and receiving the
-      care and support she deserves.
-    cta: "Read Fred and Joan’s
-      story:  https://perleyhealthfoundation.ca/stories/blog/"
-    author_name: Fred and Joan
-  - title: Your Caring Support Brings Joy and Connection
-    image: assets/images/uploads/78550527-3f04-4f52-aa66-80b0ca41da7c.jpg
-    cta: Visit PerleyHealthFoundation.ca/thank-you to see the Magic Table in action
-      and read more stories about your caring support.
-    quote: Because of your compassionate generosity, Don and other Perley residents
-      now benefit from four Magic Tables!
-    author_name: Don, Perley Health Resident
+  - image: assets/images/uploads/carmen-1_edit.jpg
+    title: Quilts of Care
+    quote: Carmen’s colourful quilts are stitched with care, bringing warmth and
+      comfort to Perley Health residents.
+    author_name: Carmen
+    cta: Read more about her heartfelt work and inspiring generosity at
+      PerleyHealthFoundation.ca/stories/blog.
   - image: assets/images/uploads/untitled-design.png
     title: O2E Staff Recognized as Champions of Care
     quote: Congratulations to members of Ottawa 2 East for being recognized as
@@ -23,10 +14,3 @@ slides:
     author_name: "A Grateful Family "
     cta: "To recognize a Champion of Care visit,
       https://perleyhealthfoundation.ca/champions-care/ "
-  - title: You Turned Heartbreak Into Hope
-    cta: Read Larry’s story perleyhealthfoundation.ca/stories/heartbreak-into-hope
-    quote: When Larry suffered a life-altering stroke, he needed help with nearly
-      every aspect of daily living. But your kindness and support made all the
-      difference.
-    author_name: Larry, Perley Health Resident
-    image: assets/images/uploads/larry_crop.png
