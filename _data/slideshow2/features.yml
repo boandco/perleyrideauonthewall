@@ -1,14 +1,8 @@
 slides:
-  - layout: landscape
-    image: assets/images/uploads/ontario-masonic-foundation-cheque-presenation-group-photo.jpg
-    title: "Thank you Masonic Foundation of Ontario "
-    description: >-
-      
-
-      Thank you to the Ontario Masonic Foundation for their generous support of our KT Hub! Their recent donation will help us share and disseminate best practices for seniors and Veterans across Ontario.  Thank you for helping us make a meaningful difference!
-  - layout: portrait
-    image: assets/images/uploads/25orw-thank-you-to-our-sponsors-.png
-    title: Thank you to our Ottawa Race Weekend Sponsors!
-    description: Thank you to our Ottawa Race Weekend Sponsors! Your support fueld
-      more than just miles - it helps provide exceptional care, programs, and
-      services for the seniors and Veterans who call Perley Health home.
+  - image: assets/images/uploads/25-06-17-westboro-legion-480_-david-kirk_15k.jpg
+    layout: portrait
+    title: Thank you Royal Canadian Legion Branch 480 Westboro!
+    description: Thank you Royal Canadian Legion Branch 480 Westboro for your
+      generous gift of $15,000! This donation will go towards funding items on
+      the Veterans Priority List to ensure every Veteran who calls Perley Health
+      home is living life to the fullest.
