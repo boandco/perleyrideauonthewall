@@ -1,4 +1,11 @@
 slides:
+  - layout: landscape
+    image: assets/images/uploads/team-cheque-photo.jpg
+    title: Congratulation Team Perley Health!
+    description: Congratulation and Thank You to Team Perley Health in their efforts
+      to raise $116,100 for Bridging Generations in the 2025 Ottawa Race
+      Weekend! Together, we are connecting Children, Seniors, and Veterans in
+      daily, meaningful ways!
   - image: assets/images/uploads/25-06-23-kanata-legion-638-_jim-hemlin_25k.jpg
     layout: portrait
     description: >-
