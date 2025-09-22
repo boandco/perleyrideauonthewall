@@ -1,20 +1,13 @@
 slides:
-  - layout: landscape
-    image: assets/images/uploads/team-cheque-photo.jpg
-    title: Congratulation Team Perley Health!
-    description: Congratulation and Thank You to Team Perley Health in their efforts
-      to raise $116,100 for Bridging Generations in the 2025 Ottawa Race
-      Weekend! Together, we are connecting Children, Seniors, and Veterans in
-      daily, meaningful ways!
-  - image: assets/images/uploads/25-06-23-kanata-legion-638-_jim-hemlin_25k.jpg
-    layout: portrait
+  - image: assets/images/uploads/image-5-.jpg
+    layout: landscape
     description: >-
-      A heartfelt thank you to The Royal Canadian Legion Branch 638 – Kanata for
-      their incredibly generous $25,000 donation from the Poppy Trust Fund.
+      A heartfelt thank you to The Veteran Society Motorcycle Club for their
+      generous donation of $5,000!
 
 
-      The funds will help bring our Bridging Generations project to life — connecting Veterans with children and youth in meaningful, inspiring ways.
-    title: Thank you Royal Canadian Legion Branch 638 Kanata!
+      Thank you for coming to Perley Health to spend time with our Veterans and for your continued support over the years!
+    title: Thank you Veteran Society Motorcycle Club!
   - image: assets/images/uploads/25-06-17-westboro-legion-480_-david-kirk_15k.jpg
     layout: portrait
     title: Thank you Royal Canadian Legion Branch 480 Westboro!
