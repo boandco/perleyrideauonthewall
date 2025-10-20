@@ -1,21 +1,22 @@
 slides:
-  - image: assets/images/uploads/image-5-.jpg
+  - image: assets/images/uploads/rcl-br-212-kemptville.jpg
     layout: landscape
+    description: Thank you Royal Canadian Legion Br 212 Kemptville for your generous
+      donation of $10,000 in support of the Bridging Generations campaign! This
+      gift will help build meaningful connections between children and Veterans
+      through Canada’s first dementia-friendly intergenerational childcare
+      program, creating a place where generations learn from and enrich each
+      other every day.
+    title: Thank you Royal Canadian Legion Br 212 Kemptville!
+  - image: assets/images/uploads/group.jpg
+    layout: landscape
+    title: Thank you Royal Canadian Legion!
     description: >-
-      A heartfelt thank you to The Veteran Society Motorcycle Club for their
-      generous donation of $5,000!
-
-
-      Thank you for coming to Perley Health to spend time with our Veterans and for your continued support over the years!
-    title: Thank you Veteran Society Motorcycle Club!
-  - image: assets/images/uploads/image-6-.jpg
-    layout: portrait
-    title: Thank you DGAEPM
-    description: >-
-      Thank you DGAEPM for your continued support and dedication to Perley
-      Health over the years! The golf tournament was an amazing way to spend the
-      day raising money for our Veterans and for promoting the Bridging
-      Generations Intergenerational Childcare Program! 
+      Thank you the Royal Canadian Legion Branches for your continued support
+      and dedication to Perley Health over the years! This past year they raised
+      a total of $250,435 to purchase items from the Veterans' Priority Needs
+      List to ensure all Veterans who call Perley Health home are able to live
+      life to the fullest!
 
 
       Thank you for your commitment!
