@@ -1,21 +1,26 @@
 slides:
   - layout: landscape
-    title: Thank You Royal Canadian Legion Br 625 Richmond!
-    description: Thank you for your generous donation, and ongoing commitment to the
-      support, betterment and safety of the Veterans at Perley Health.
-    image: assets/images/uploads/2026-rcl-richmond-cheque-presentation.jpg
-  - layout: landscape
     image: assets/images/uploads/cnw_04-22-26_vac_113.jpg
     description: Thank you to Deborah’s Gift Boutique for their generous $35,000
       donation in support of our Bridging Generations Campaign, helping make our
       new Intergenerational Early Learning Centre possible.
     title: Thank you to Deborah’s Gift Boutique
+  - layout: landscape
+    title: Thank You Royal Canadian Legion Br 625 Richmond!
+    description: Thank you for your generous donation, and ongoing commitment to the
+      support, betterment and safety of the Veterans at Perley Health.
+    image: assets/images/uploads/2026-rcl-richmond-cheque-presentation.jpg
   - layout: portrait
-    image: assets/images/uploads/cheque-presentation.jpg
-    title: Thank you RCN Curling Club!
-    description: Thank you to the hard work and commitment of the Royal Canadian
-      Navy Curling Club and 11 generous Ottawa and surrounding area golf courses
-      for their support of Perley Health Veterans.
+    image: assets/images/uploads/rcl-eastview.jpg
+    title: "Thank You Royal Canadian Legion Br 462 Eastview! "
+    description: >-
+      Thank you for your generous donation, which was presented to Perley Health
+      Foundation at the Branch’s annual Honours & Awards Ceremony. This gift is
+      being directed to purchase three pieces of equipment that will provide
+      dignity, independence, comfort, and care to Veterans at Perley Health. 
+
+
+      Eastview Branch Member and Perley Health resident Roland Lalonde also generously donated a painting he made at Perley Health’s art studio to the Branch.
   - image: assets/images/uploads/rcl-br-212-kemptville.jpg
     layout: portrait
     description: Thank you Royal Canadian Legion Br 212 Kemptville for your generous
