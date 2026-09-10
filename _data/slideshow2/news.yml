@@ -1,11 +1,4 @@
 slides:
-  - title: "Centre of Excellence "
-    quote: Your support for the Centre of Excellence in Frailty-Informed Care is
-      advancing person-centred care in long-term care homes across Canada.
-      Discover the difference you’re making in the fall edition of Honour &
-      Care, coming soon.
-    image: assets/images/uploads/newsletter-webpage-banner.png
-    author_name: Perley Health Foundation
   - image: assets/images/uploads/2026-07-08_delphinehaslé_20247_cropped.jpg
     title: From the bottom of my heart
     quote: Thank you for believing that everyone deserves a fulfilling life at every
@@ -14,6 +7,13 @@ slides:
     author_name: Delphine Haslé, CFRE
     author_title: Chief Executive Officer
     author_company: Perley Health Foundation
+  - title: "Centre of Excellence "
+    quote: Your support for the Centre of Excellence in Frailty-Informed Care is
+      advancing person-centred care in long-term care homes across Canada.
+      Discover the difference you’re making in the fall edition of Honour &
+      Care, coming soon.
+    image: assets/images/uploads/newsletter-webpage-banner.png
+    author_name: Perley Health Foundation
   - image: assets/images/uploads/26-05-comfort-care-carts.png
     title: Comfort Care Carts
     quote: Comfort Care Carts and Chairs allow a family member or care partner to
