@@ -1,10 +1,11 @@
 slides:
-  - image: assets/images/uploads/dog-perley-health.jpg
-    title: There’s something special about the days when a dog comes to visit 🐾
-    quote: For our residents, a visit can bring back happy memories or brighten
-      their day. Quality of life is about more than physical care—it’s music,
-      friendship, kindness, and sometimes, a wagging tail and a wet nose.
-    author_name: Delphine Haslé, CEO - Foundation
+  - title: "Centre of Excellence "
+    quote: Your support for the Centre of Excellence in Frailty-Informed Care is
+      advancing person-centred care in long-term care homes across Canada.
+      Discover the difference you’re making in the fall edition of Honour &
+      Care, coming soon.
+    image: assets/images/uploads/newsletter-webpage-banner.png
+    author_name: Perley Health Foundation
   - image: assets/images/uploads/2026-07-08_delphinehaslé_20247_cropped.jpg
     title: From the bottom of my heart
     quote: Thank you for believing that everyone deserves a fulfilling life at every
@@ -30,6 +31,12 @@ slides:
     author_name: Perley Health Foundation
     cta: Read his story in the latest issue of Honour and Care or visit
       https://perleyhealthfoundation.ca/stories/blog/a-gentle-landing/
+  - image: assets/images/uploads/dog-perley-health.jpg
+    title: There’s something special about the days when a dog comes to visit 🐾
+    quote: For our residents, a visit can bring back happy memories or brighten
+      their day. Quality of life is about more than physical care—it’s music,
+      friendship, kindness, and sometimes, a wagging tail and a wet nose.
+    author_name: Delphine Haslé, CEO - Foundation
   - image: assets/images/uploads/untitled-design.png
     title: O2E Staff Recognized as Champions of Care
     quote: Congratulations to members of Ottawa 2 East for being recognized as
