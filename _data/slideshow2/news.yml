@@ -8,10 +8,9 @@ slides:
     author_title: Chief Executive Officer
     author_company: Perley Health Foundation
   - title: "Centre of Excellence "
-    quote: Your support for the Centre of Excellence in Frailty-Informed Care is
-      advancing person-centred care in long-term care homes across Canada.
-      Discover the difference you’re making in the fall edition of Honour &
-      Care, coming soon.
+    quote: Comfort Care Carts and Chairs allow a family member or care partner to
+      stay close, and rest when they need to while still being present with
+      their resident.
     image: assets/images/uploads/newsletter-webpage-banner.png
     author_name: Perley Health Foundation
   - image: assets/images/uploads/26-05-comfort-care-carts.png
@@ -21,7 +20,8 @@ slides:
       their resident. Read how your generosity impacts end-of-life care on the
       blog
     author_name: Perley Health Foundation
-    cta: www.PerleyHealthFoundation.ca/stories/blog
+    cta: "Read how your generosity impacts end-of-life care on the blog:
+      www.PerleyHealthFoundation.ca/stories/blog"
   - image: assets/images/uploads/deborah-s-gift-boutique-staff.jpeg
     title: A Little Shop With A Big Legacy
     quote: This year, Deborah’s Gift Boutique celebrates 30 years of bringing joy to
@@ -29,8 +29,7 @@ slides:
       shoppers, the boutique has donated more than $700,000 to support care and
       programs for Veterans and seniors.
     author_name: Perley Health Foundation
-    cta: Read his story in the latest issue of Honour and Care or visit
-      https://perleyhealthfoundation.ca/stories/blog/a-gentle-landing/
+    cta: ""
   - image: assets/images/uploads/dog-perley-health.jpg
     title: There’s something special about the days when a dog comes to visit 🐾
     quote: For our residents, a visit can bring back happy memories or brighten
