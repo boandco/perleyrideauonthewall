@@ -31,7 +31,7 @@ slides:
 
       *These poppies were made by many hands, with one shared message: Thank you. We remember. We are grateful.*
   - layout: portrait
-    image: assets/images/uploads/sienna-foundation-logo-rgb_transparent.png
+    image: assets/images/uploads/sienna-fo-seniors.png
     title: Thank you Sienna for Seniors Foundation!
     description: >-
       We are so grateful to the Sienna for Seniors Foundation for your gift in
@@ -45,12 +45,14 @@ slides:
     layout: portrait
     description: >-
       Commissionaires Ottawa is making a transformative investment in the future
-      of long-term care, through a historic $3 million gift to Building for
-      Belonging. The gift will help develop a new model of care designed to
-      foster joy, purpose and belonging. It honours the service of today’s
-      Veterans while helping ensure that future generations can access the
-      extraordinary care they deserve.
+      of long-term care, through **a historic $3 million gift to Building for
+      Belonging**. 
 
+
+      The gift will help develop a new model of care designed to foster joy, purpose and belonging. It honours the service of today’s Veterans while helping ensure that future generations can access the extraordinary care they deserve.
+    title: Thank you Commissionaires Ottawa!
+  - description: >-
+      
 
       > *“Commissionaires Ottawa was built to serve those who have served, and that commitment doesn’t end when a Veteran’s working life does. We have seen first-hand the difference Perley Health’s care makes in the lives of Veterans, seniors and their families. With this gift, we’re proud to help build a place where future generations will find dignity, purpose and community. It’s our way of telling every Veteran that their service is remembered, and that their community is here for them.”*
 
@@ -58,3 +60,5 @@ slides:
 
       > Michel Charron, Chief Executive Officer, Commissionaires Ottawa
     title: Thank you Commissionaires Ottawa!
+    layout: portrait
+    image: assets/images/uploads/b4b-and-commissionaires-logos.png
