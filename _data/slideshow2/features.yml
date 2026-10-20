@@ -6,28 +6,6 @@ slides:
       within Perley Health. Residents always love seeing their motorcycles and
       appreciate the time spent together with club members.
     image: assets/images/uploads/image-77-.jpg
-  - image: assets/images/uploads/perleyhealth_donorreception-2172.jpg
-    layout: portrait
-    title: Thank You for Making the New Intergenerational Early Learning Centre
-      Possible!
-    description: >-
-      The new Intergenerational Early Learning Centre at Perley Health has been
-      made possible through the generosity of donors who support the Bridging
-      Generations campaign.
-
-
-      Soon, little ones, Veterans, and Seniors will come together every day to share meals, stories, laughter, and meaningful moments.
-  - layout: landscape
-    image: assets/images/uploads/img_e5860.jpg
-    title: "Welcome to the Century Club, Royal Canadian Legion! "
-    description: We were thrilled to welcome the Royal Canadian Legion into the
-      Perley Health Century Club this year in recognition of their 100th
-      Anniversary.
-  - layout: landscape
-    image: assets/images/uploads/perleyhealth_strawberrysocial_r2-1637.jpg
-    title: "Thank You Royal Canadian Legion Br 638 Kanata! "
-    description: We are so grateful for the members of Branch 638 in Kanata for your
-      lasting support of the Veterans at Perley Health.
   - layout: landscape
     image: assets/images/uploads/cnw_04-22-26_vac_113.jpg
     description: Thank you to Deborah’s Gift Boutique for their generous $35,000
@@ -35,10 +13,23 @@ slides:
       new Intergenerational Early Learning Centre possible.
     title: Thank you to Deborah’s Gift Boutique
   - layout: landscape
-    title: Thank You Royal Canadian Legion Br 625 Richmond!
-    description: Thank you for your generous donation, and ongoing commitment to the
-      support, betterment and safety of the Veterans at Perley Health.
-    image: assets/images/uploads/2026-rcl-richmond-cheque-presentation.jpg
+    image: assets/images/uploads/perleyhealth_strawberrysocial_r2-1637.jpg
+    title: "Thank You Royal Canadian Legion Br 638 Kanata! "
+    description: We are so grateful for the members of Branch 638 in Kanata for your
+      lasting support of the Veterans at Perley Health.
+  - layout: landscape
+    image: assets/images/uploads/rcl-seminar.png
+    title: The Royal Canadian Legion 2026 Seminar
+    description: >-
+      At the 2026 Royal Canadian Legion seminar, we were thrilled to welcome
+      branches that support Perley Health to express our thanks for their
+      generous support and commitment to the Veterans at Perley Health. 
+
+
+      This year, in recognition of The Royal Canadian Legion’s 100th Anniversary, each branch was gifted with a ceramic poppy, handmade by Perley Health residents. The art studio shared their message of thanks to the Legion: 
+
+
+      *These poppies were made by many hands, with one shared message: Thank you. We remember. We are grateful.*
   - layout: portrait
     image: assets/images/uploads/sienna-foundation-logo-rgb_transparent.png
     title: Thank you Sienna for Seniors Foundation!
